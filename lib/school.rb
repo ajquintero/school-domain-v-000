@@ -15,7 +15,7 @@ class School
      
       roster[grade] = [new_name]
 
-     
+
   end
 
 end
