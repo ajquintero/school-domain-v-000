@@ -12,7 +12,7 @@ class School
   end
 
   def add_student(new_name, grade)
-    unless roster[new_name] = []
+    # unless roster[new_name] = []
       roster[new_name] = grade
       roster << new_name
     end
