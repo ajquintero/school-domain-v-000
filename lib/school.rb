@@ -28,6 +28,8 @@ class School
     sorted_students = {}
     @roster.each do |name, grade|
       sorted_students[name] = grade
+    end
+    sorted_students
   end
 
 end
