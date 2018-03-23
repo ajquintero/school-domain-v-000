@@ -27,7 +27,7 @@ class School
   def sort
     sorted_students = {}
     @roster.each do |names, grade|
-      sorted_students[grade] = names.sort
+      sorted_students[names] = grade.sort
     end
     sorted_students
   end
